@@ -1,7 +1,7 @@
 # Dockerfile for the Ubuntu 10.04 Lucid i386 (32bit)
 
 ## Supported tags and respective `Dockerfile` links
-* [`latest` (ubuntu-lucid-i386/Dockerfile)](https://github.com/yamamuteki/ubuntu-lucid-i386/blob/master/ubuntu-lucid-i386/Dockerfile)
+* [`minbase`, `latest` (ubuntu-lucid-i386/Dockerfile)](https://github.com/yamamuteki/ubuntu-lucid-i386/blob/master/ubuntu-lucid-i386/Dockerfile)
 
 ## About this Repo
 
