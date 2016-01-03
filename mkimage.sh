@@ -12,5 +12,6 @@ git clone --depth 1 -b v1.9.1 https://github.com/docker/docker.git
 cd docker/contrib
 
 # Make a Docker image from lucid http://archive.ubuntu.com/ubuntu/.
-./mkimage.sh -d "../../" debootstrap  --verbose --variant=minbase --include=iproute,gpgv --arch=i386 lucid http://archive.ubuntu.com/ubuntu/
+# Reference: https://hub.docker.com/_/ubuntu-debootstrap/
+./mkimage.sh -d "../../" debootstrap --verbose --variant=minbase --components=main,universe --include=iproute,gpgv --arch=i386 lucid http://archive.ubuntu.com/ubuntu/
 
